@@ -25,7 +25,14 @@ the second character matches the second ast character and so on until we reach t
 */
 /*
   Add written explanation of your solution here
-*/
+Took our function input length and divided it by two to the middle most index
+Used a for loop to iterate the word length up to the middle number found above
+as i compared the first and the last index of my word.
+Checked if the letter at the start index matched the letter at the last index,
+the letters at the second index matched the second last index and so on up to the middle index.
+Finally returned true if the letters at the specified index matched and false if the letters did not match.
+
+  */
 
 // You can run `node index.js` to view these console logs
 if (require.main === module) {
